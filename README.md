@@ -25,10 +25,10 @@ sudo apt-get update && sudo apt-get install ffmpeg libsm6 libxext6  -y
 | CogVideoX-5B | Heavy Degradation | [:link:](https://huggingface.co/SherryX/STAR/tree/main/CogVideoX-5B-based) |
 
 ### 1. I2VGen-XL-based 
-#### Step 1: Download the pretrained model STAR from [HuggingFace](https://huggingface.co/SherryX/STAR).
+#### Step 1: Download the pretrained models from [HuggingFace](https://huggingface.co/SherryX/STAR).
 We provide two versions for I2VGen-XL-based model, `heavy_deg.pt` for heavy degraded videos and `light_deg.pt` for light degraded videos (e.g., the low-resolution video downloaded from video websites).
 
-You can put the weight into `pretrained_weight/`.
+You can put the weight into `models/`.
 
 #### Step 2: Prepare testing data
 You can put the testing videos in the `input/video/`.
@@ -42,7 +42,7 @@ You need to change the paths in `video_super_resolution/scripts/inference_sr.sh`
 
 #### Step 4: Running inference command
 ```
-bash video_super_resolution/scripts/inference_sr.sh
+bash go.sh
 ```
 
 ### 2. CogVideoX-based
@@ -71,10 +71,9 @@ If our project helps your research or work, please consider citing our paper:
 
 
 ## 📧 Contact
-If you have any inquiries, please don't hesitate to reach out via email at `ruixie0097@gmail.com`
+If you have any inquiries, please don't hesitate to reach out via email at 
 
 
 ## 📄 License
 I2VGen-XL-based models are distributed under the terms of the [MIT License](https://choosealicense.com/licenses/mit/).
-
 CogVideoX-5B-based model is distributed under the terms of the [CogVideoX License](https://huggingface.co/THUDM/CogVideoX-5b/blob/main/LICENSE).
