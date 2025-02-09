@@ -1,33 +1,4 @@
-<div align="center">
-
-    Fork of 
-    https://github.com/NJU-PCALab/STAR
-</div>
-
-
-## 🔆 Updates
-- **2025.01.19** The STAR demo is now available on [Google Colab](https://colab.research.google.com/drive/1K8A1U_BNpAteRhhW9A8pAYs6LWjItQs_?usp=sharing). Feel free to give it a try!
-
-- **2025.01.09** The online demo of STAR on [Hugging Face](https://huggingface.co/spaces/SherryX/STAR) is now live! Please note that due to the duration limitation of ZeroGPU, the running time may exceed the allocated GPU duration. If you'd like to try it, you can duplicate the demo and assign a paid GPU.
-
-- **2025.01.07**  The pretrained STAR model (I2VGen-XL and CogVideoX-5B versions) and inference code have been released.
-
-
-## 📑 TODO
-- [ ] Training codes
-- [x] Inference codes
-- [x] Online demo
-
-
-## 🔎 Method Overview
-![STAR](assets/overview.png)
-
-
-## 📷 Results Display
-![STAR](assets/teaser.png)
-![STAR](assets/real_world.png)
-👀 More visual results can be found in our [Project Page](https://nju-pcalab.github.io/projects/STAR) and [Video Demo](https://youtu.be/hx0zrql-SrU).
-
+Fork of https://github.com/NJU-PCALab/STAR
 
 ## ⚙️ Dependencies and Installation
 **VRAM requirement**: Upscaling the provided toy example by 4x, with 72 frames, a width of 426, and a height of 240, requires around 39GB of VRAM using the default settings. If you encounter an OOM problem, you can set a smaller frame_length in inference_sr.sh. We recommend using a GPU with at least 24GB of VRAM to run this project. 
