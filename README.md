@@ -1,42 +1,7 @@
 <div align="center">
-    <h1>
-    STAR: Spatial-Temporal Augmentation with Text-to-Video Models for Real-World Video Super-Resolution
-    </h1>
-    <div>
-        <a href='https://github.com/CSRuiXie' target='_blank'>Rui Xie<sup>1*</sup></a>,&emsp;
-        <a href='https://github.com/yhliu04' target='_blank'>Yinhong Liu<sup>1*</sup></a>,&emsp;
-        <a href='https://scholar.google.com/citations?hl=zh-CN&user=yWq1Fd4AAAAJ' target='_blank'>Penghao Zhou<sup>2</sup></a>,&emsp;
-        <a href='https://scholar.google.com/citations?user=Uhp3JKgAAAAJ&hl=zh-CN&oi=sra' target='_blank'>Chen Zhao<sup>1</sup></a>,&emsp;
-        <a href='https://scholar.google.com/citations?hl=zh-CN&user=w03CHFwAAAAJ' target='_blank'>Jun Zhou<sup>3</sup></a><br>
-        <a href='https://cszn.github.io/' target='_blank'>Kai Zhang<sup>1</sup></a>,&emsp;
-        <a href='https://jessezhang92.github.io/' target='_blank'>Zhenyu Zhang<sup>1</sup></a>,&emsp;
-        <a href='https://scholar.google.com.hk/citations?user=6CIDtZQAAAAJ&hl=zh-CN' target='_blank'>Jian Yang<sup>1</sup></a>,&emsp;
-        <a href='https://scholar.google.com/citations?hl=zh-CN&user=Ds5wwRoAAAAJ' target='_blank'>Zhenheng Yang<sup>2</sup></a>,&emsp;
-        <a href='https://tyshiwo.github.io/index.html' target='_blank'>Ying Tai<sup>1&#8224</sup></a>
-    </div>
-    <div>
-        <sup>1</sup>Nanjing University,&emsp;<sup>2</sup>ByteDance,&emsp; <sup>3</sup>Southwest University
-    </div>
-    <div>
-        <h4 align="center">
-            <a href="https://nju-pcalab.github.io/projects/STAR" target='_blank'>
-                <img src="https://img.shields.io/badge/🌟-Project%20Page-blue" style="padding-right: 20px;">
-            </a>
-            <a href="https://arxiv.org/abs/2501.02976" target='_blank'>
-                <img src="https://img.shields.io/badge/arXiv-2501.02976-b31b1b.svg" style="padding-right: 20px;">
-            </a>
-            <a href="https://youtu.be/hx0zrql-SrU" target='_blank'>
-                <img src="https://img.shields.io/badge/Demo%20Video-%23FF0000.svg?logo=YouTube&logoColor=white" style="padding-right: 20px;">
-            </a>
-            <br>
-            <a href="https://huggingface.co/spaces/SherryX/STAR" target='_blank'>
-                <img src="https://img.shields.io/static/v1?label=Demo STAR&message=HuggingFace&color=yellow">
-            </a>
-            <a href="https://colab.research.google.com/drive/1K8A1U_BNpAteRhhW9A8pAYs6LWjItQs_?usp=sharing" target='_blank'>
-                <img src="https://img.shields.io/static/v1?label=Demo STAR&message=Google Colab&color=orange">
-            </a>
-        </h4>
-    </div>
+
+    Fork of 
+    https://github.com/NJU-PCALab/STAR
 </div>
 
 
