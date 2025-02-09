@@ -5,12 +5,12 @@ Fork of https://github.com/NJU-PCALab/STAR
 
 ```
 ## git clone this repository
-git clone https://github.com/NJU-PCALab/STAR.git
-cd STAR
+git clone stable-diffusion-upscale
+cd stable-diffusion-upscale
 
 ## create an environment
-conda create -n star python=3.10
-conda activate star
+conda create -n stable-diffusion-upscale python=3.10
+conda activate stable-diffusion-upscale
 pip install -r requirements.txt
 sudo apt-get update && sudo apt-get install ffmpeg libsm6 libxext6  -y
 ```
